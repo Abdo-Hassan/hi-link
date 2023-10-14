@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Logo from '../../public/hilink-logo.svg';
 import User from '../../public/user.svg';
+import Menu from '../../public/menu.svg';
 import Image from 'next/image';
 import { NAV_LINKS } from '@/constants';
 import Button from './Button';
@@ -31,6 +32,14 @@ const Navbar = () => {
           variant='btn_dark_green'
         />
       </div>
+
+      <Image
+        src={Menu}
+        alt='Menu'
+        width={32}
+        height={32}
+        className='inline-block cursor-pointer lg:hidden'
+      />
     </nav>
   );
 };
