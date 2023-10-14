@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Travel Path',
+  title: 'HiLink',
   description: 'Travel UI/UX App for Camping',
 };
 
